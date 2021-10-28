@@ -1,0 +1,20 @@
+body{
+  background-color: #222222;
+  font-famiry: 'Osaka',sans-serif;
+}
+
+h1,p{
+  color: #999999;
+}
+
+button{
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #999999;
+}
+
+#next,#give_up,#deleting{
+  width: 150px;
+}
