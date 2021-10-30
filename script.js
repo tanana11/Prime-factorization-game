@@ -89,3 +89,24 @@ document.getElementById("give_up").addEventListener('click', () => {
   gave_up_number += 1;
   gave_up.innerHTML = gave_up_number;
 });
+
+document.addEventListener("keydown", (event) => {
+   if (event.Enter){
+      if (number == question.innerHTML){
+        alert("atari!");
+        number = 1;
+        answer.innerHTML = "";
+        question_number();
+        answered_number += 1;
+        answered. innerHTML = answered_number;
+      }
+      else{
+        alert("hazure!");
+    
+        number = 1;
+        answer.innerHTML = "";
+      }
+   
+   }
+
+});
