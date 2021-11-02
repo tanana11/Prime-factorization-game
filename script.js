@@ -35,7 +35,7 @@ function question_number(){
    *Math.pow(23, Math.floor(Math.random() * 1.1))
    *Math.pow(29, Math.floor(Math.random() * 1.1))
 console.log(number);
-  if (n <= 10000){
+  if (n <= 1000){
     question.innerHTML = n;
   }
   else{
