@@ -64,7 +64,7 @@ document.getElementById("next").addEventListener('click', () => {
   if (number == question.innerHTML){
     alert("atari!");
     number = 1;
-    answer.innerHTML = "×";
+    answer.innerHTML = "";
     question_number();
     answered_number += 1;
     answered. innerHTML = answered_number;
