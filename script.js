@@ -53,7 +53,7 @@ let number = 1;
 
 function mult(n){
   number *= n;
-  answer.innerHTML += n + "";
+  answer.innerHTML += n + "×";
   console.log(number);
 }
 
